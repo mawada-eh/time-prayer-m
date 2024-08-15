@@ -1,0 +1,100 @@
+body{
+    font-family: 'tajawal';
+    background-image:url(zokrf.jfif)  ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(21, 78, 30);
+    border-radius: 50px;
+    margin: 50px;
+    margin-bottom: 0%;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo img{
+    width: 60px;
+    margin-right: center;
+}
+.logo h1{
+    margin-top: 20px;
+}
+
+
+.date{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.count{
+
+    margin-top: 60px;
+}
+
+
+
+.city-all{
+    margin-top: 20px;
+    margin-bottom: 0%;
+    padding-bottom: 50px;
+}
+/* لااسم المدينه */
+.city-all h2{
+    color: rgb(21, 78, 30);
+    font-size: 50px;
+    margin: 0px;
+    margin-bottom: 50px;
+}
+/* لل اختيارات */
+.city-all select{
+    width: 100px;
+    border-radius: 8px;
+ 
+}
+
+
+/* للصلوات */
+
+.prayar-times{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.time{
+    background-color:rgba(21, 78, 30, 0.89) ;
+    border-radius: 9px;
+    padding: 20px;
+    margin: 10px;
+    width: 150px;
+    transition: transform 0.3;
+
+}
+
+.time:hover{
+    transform: scale(1.2);
+    background-color: rgb(5, 17, 6);
+}
+
+

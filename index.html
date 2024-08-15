@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  
+    <title >اوقات الصلاة في ليبيا</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- اولا العنوان -->
+      <header>
+     
+
+
+        <div class="logo">
+            <img src="goba.png" >
+            <h1>صلاتي</h1>
+        </div>
+
+
+        <div class="count">
+          الوقت المتبقي للصلاة القادمة :<span id="countdown"></span>
+        </div>
+         
+        <!-- اي شي بخصوص التاريخ -->
+         
+        <div class="date">
+            <h4> اليوم</h4>
+            <span id="hijri-date"></span>
+            <span id="gregorian-date"></span>
+        </div>
+      </header>
+     <!-- اولا العنوان -->
+
+     <main>
+        <!-- اي شي بخصوص المدينه -->
+        <div class="city-all">
+            <h2><span id="city-name"></span></h2>
+                <label for="city-select"></label>
+                <select id="city-select">
+                <option value="اجدابيا">اجدابيا</option>
+                <option value="طرابلس">طرابلس</option>
+                <option value="بنغازي">بنغازي</option>
+                <option value="مصراتة">مصراتة</option>
+                <option value="سبها">سبها</option>
+                <option value="البيضاء">البيضاء</option>
+                <option value="الزاوية">الزاوية</option>
+                <option value="درنة">درنة</option>
+                
+               
+               </select>
+
+        </div>
+        <!-- اي شي بخصوص المدينه -->
+
+        <!-- اي شي بخصوص الصلاة -->
+
+        <div class="prayar-times">
+            <div class="time">الفجر<br> <span id="fajr"></span></div>
+            <div class="time">الشروق<br> <span id="sunrise"></span></div>
+            <div class="time">الظهر<br> <span id="dhuhr"></span></div>
+            <div class="time">العصر<br> <span id="asr"></span></div>
+            <div class="time">المغرب<br> <span id="maghrib"></span></div>
+            <div class="time">العشاء<br> <span id="isha"></span></div>
+   
+        </div>
+         <!-- اي شي بخصوص الصلاة -->
+
+
+     </main>
+
+     <script src="script.js"></script>
+</body>
+</html>
